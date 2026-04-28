@@ -1,0 +1,6 @@
+@echo off
+echo Activating local environment...
+call .venv\Scripts\activate
+echo Launching Smart Crop Health Monitoring app...
+python app.py
+pause
